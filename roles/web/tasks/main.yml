@@ -1,0 +1,4 @@
+- name: Clone moscow-time codebase
+  git:
+    repo: "{{moscow_time_https_repo}}"
+    dest: /usr/app/
