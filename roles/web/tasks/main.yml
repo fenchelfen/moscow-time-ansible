@@ -2,6 +2,7 @@
   git:
     repo: "{{moscow_time_https_repo}}"
     dest: /usr/app/
+    version: cert-bot
 
 - name: Deploy moscow-time Daphne web app
   shell: |
