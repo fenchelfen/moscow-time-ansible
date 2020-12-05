@@ -2,3 +2,8 @@
   git:
     repo: "{{moscow_time_https_repo}}"
     dest: /usr/app/
+
+- name: Deploy moscow-time Daphne web app
+  shell: |
+    cd /usr/app/
+    docker-compose up -d --force-recreate --build --remove-orphans
