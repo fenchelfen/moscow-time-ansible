@@ -1,0 +1,2 @@
+domain_name: "int1.tst.iroha.tech"
+certbot_repo: "https://github.com/wmnnd/nginx-certbot.git"
